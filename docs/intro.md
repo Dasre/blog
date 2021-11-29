@@ -9,5 +9,7 @@ sidebar_position: 1
 零散部分會放置[Blog](/Blog)部分。
 
 ## 目前預計新增主題
-* 重新認識JavaScript
-* Vue2
+
+- 重新認識 JavaScript
+- Rust 超入門
+- Vue2
