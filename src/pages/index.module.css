@@ -16,8 +16,26 @@
   }
 }
 
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
 }
