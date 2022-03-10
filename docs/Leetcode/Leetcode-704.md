@@ -1,5 +1,5 @@
 ---
-id: Leetcode-21
+id: Leetcode-704
 ---
 
 ## 題目
