@@ -18,48 +18,47 @@ Easy
 
 ## 初試
 
-```javascript=
+```javascript
 /**
  * @param {number[][]} logs
  * @return {number}
  */
 
-var maximumPopulation = function(logs) {
-    const dict = new Map();
-    let max = 0;
-    let num = 0;
-    for(let i=0; i<logs.length; i++){
-        for(let j=0; j<=1; j++){
-            max = logs[i][j];
+var maximumPopulation = function (logs) {
+  const dict = new Map();
+  let max = 0;
+  let num = 0;
+  for (let i = 0; i < logs.length; i++) {
+    for (let j = 0; j <= 1; j++) {
+      max = logs[i][j];
 
-            logs.map((item) => {
-                if( item[0] <=max && item[1] > max){
-                    num += 1;
-                }
-            })
-
-            dict.set(max, num);
-
-            max = 0;
-            num = 0;
+      logs.map((item) => {
+        if (item[0] <= max && item[1] > max) {
+          num += 1;
         }
+      });
+
+      dict.set(max, num);
+
+      max = 0;
+      num = 0;
     }
+  }
 
-    let re = 10000;
-    let ma = 0;
+  let re = 10000;
+  let ma = 0;
 
+  dict.forEach((value, key) => {
+    if (value > ma) {
+      re = key;
+      ma = value;
+    } else if (value === ma && re > key) {
+      re = key;
+      ma = value;
+    }
+  });
 
-    dict.forEach((value, key) => {
-        if(value > ma){
-            re = key;
-            ma = value;
-        }else if(value === ma && re > key){
-            re = key;
-            ma = value;
-        }
-    })
-
-    return re;
+  return re;
 };
 ```
 

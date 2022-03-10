@@ -16,33 +16,33 @@ id: Leetcode-1423
 
 ## 初試
 
-```javascript=
+```javascript
 /**
  * @param {number[]} cardPoints
  * @param {number} k
  * @return {number}
  */
-var maxScore = function(cardPoints, k) {
-    const reducer = (accumulator, currentValue) => accumulator + currentValue;
-    if(cardPoints.length === k){
-        return cardPoints.reduce(reducer);
+var maxScore = function (cardPoints, k) {
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+  if (cardPoints.length === k) {
+    return cardPoints.reduce(reducer);
+  }
+  let newArr = cardPoints.concat(cardPoints);
+
+  const arr = newArr.slice(cardPoints.length - k, cardPoints.length + k);
+
+  let max = arr.slice(0, k).reduce(reducer);
+  let now = max;
+
+  for (let i = 0; i < k; i++) {
+    let sum = now - arr[i] + arr[i + k];
+    console.log(sum, max);
+    if (sum > max) {
+      max = sum;
     }
-    let newArr = cardPoints.concat(cardPoints);
-
-    const arr = newArr.slice(cardPoints.length - k, cardPoints.length + k);
-
-    let max = arr.slice(0, k).reduce(reducer);
-    let now = max;
-
-    for(let i=0; i<k; i++){
-        let sum = now - arr[i] + arr[i+k];
-        console.log(sum, max);
-        if(sum > max){
-            max = sum;
-        }
-        now = sum;
-    }
-    return max;
+    now = sum;
+  }
+  return max;
 };
 ```
 
