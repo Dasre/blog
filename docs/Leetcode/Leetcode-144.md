@@ -1,5 +1,7 @@
 ---
 id: Leetcode-144
+tags:
+  - Leetcode
 ---
 
 ## 題目
@@ -63,17 +65,17 @@ var simplifyPath = function (path) {
    * @return {string}
    */
   var simplifyPath = function (path) {
-    const parts = path.split('/').filter((item) => item);
+    const parts = path.split("/").filter((item) => item);
     const stack = [];
     for (let i of parts) {
-      if (i === '..') {
+      if (i === "..") {
         stack.pop();
-      } else if (i === '.') {
+      } else if (i === ".") {
       } else {
         stack.push(i);
       }
     }
-    return `/${stack.join('/')}`;
+    return `/${stack.join("/")}`;
   };
 };
 ```

@@ -1,6 +1,10 @@
 ---
 id: Leetcode-520
-last-modified: 2023-01-02
+title: 520-Detect Capital
+tags:
+  - Leetcode
+last_update:
+  date: 2023-01-03
 ---
 
 ## 題目

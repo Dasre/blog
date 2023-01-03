@@ -1,5 +1,7 @@
 ---
 id: Leetcode-290
+tags:
+  - Leetcode
 ---
 
 ## 題目

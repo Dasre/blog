@@ -1,5 +1,7 @@
 ---
 id: Leetcode-991
+tags:
+  - Leetcode
 ---
 
 ## 題目
@@ -37,15 +39,13 @@ Output: 3
 Explanation: Use double, decrement and double {3 -> 6 -> 5 -> 10}.
 ```
 
-在只有乘2和減1的狀況，找出起始值變成目標值最少步驟次數。
+在只有乘 2 和減 1 的狀況，找出起始值變成目標值最少步驟次數。
 
 ## 題目難易度
 
 Medium
 
 ## 解題想法
-
-
 
 ## 初試
 
