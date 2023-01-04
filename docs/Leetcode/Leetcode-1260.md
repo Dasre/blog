@@ -1,5 +1,7 @@
 ---
 id: Leetcode-1260
+tags:
+  - Leetcode
 ---
 
 ## 題目

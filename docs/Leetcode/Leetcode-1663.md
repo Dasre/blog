@@ -1,5 +1,7 @@
 ---
 id: Leetcode-1663
+tags:
+  - Leetcode
 ---
 
 ## 題目
@@ -77,6 +79,6 @@ var getSmallestString = function (n, k) {
     }
   }
 
-  return array.reverse().join('');
+  return array.reverse().join("");
 };
 ```

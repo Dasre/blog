@@ -1,5 +1,7 @@
 ---
 id: Leetcode-1007
+tags:
+  - Leetcode
 ---
 
 ## 題目

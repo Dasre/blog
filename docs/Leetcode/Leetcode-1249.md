@@ -1,5 +1,7 @@
 ---
 id: Leetcode-1249
+tags:
+  - Leetcode
 ---
 
 ## 題目
@@ -67,17 +69,17 @@ Medium
 var minRemoveToMakeValid = function (s) {
   const stack = [];
 
-  const sl = s.split('');
+  const sl = s.split("");
 
-  let tmp = '';
+  let tmp = "";
   for (let i = 0; i < sl.length; i++) {
     const char = sl[i];
 
-    if (sl[i] === '(') {
+    if (sl[i] === "(") {
       stack.push(i);
-    } else if (sl[i] === ')') {
+    } else if (sl[i] === ")") {
       if (stack.length === 0) {
-        sl[i] = '';
+        sl[i] = "";
       } else {
         stack.pop();
       }
@@ -85,9 +87,9 @@ var minRemoveToMakeValid = function (s) {
   }
 
   for (let i = 0; i < stack.length; i++) {
-    sl[stack[i]] = '';
+    sl[stack[i]] = "";
   }
 
-  return sl.join('');
+  return sl.join("");
 };
 ```

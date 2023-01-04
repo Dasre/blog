@@ -1,5 +1,7 @@
 ---
 id: Leetcode-856
+tags:
+  - Leetcode
 ---
 
 ## 題目
@@ -61,7 +63,7 @@ var scoreOfParentheses = function (s) {
   let score = 0;
 
   for (let i = 0; i < s.length; i++) {
-    if (s[i] === '(') {
+    if (s[i] === "(") {
       stack.push(score);
       score = 0;
     } else {
@@ -93,25 +95,25 @@ var scoreOfParentheses = function (s) {
  */
 var isValid = function (s) {
   const mapping = new Map([
-    [')', '('],
-    ['}', '{'],
-    [']', '['],
+    [")", "("],
+    ["}", "{"],
+    ["]", "["],
   ]);
   const stack = [];
 
   for (let i = 0; i < s.length; i++) {
-    if (s[i] === '(' || s[i] === '{' || s[i] === '[') {
+    if (s[i] === "(" || s[i] === "{" || s[i] === "[") {
       stack.push(s[i]);
-    } else if (s[i] === ')') {
-      if (stack.pop(s[i]) !== mapping.get(')')) {
+    } else if (s[i] === ")") {
+      if (stack.pop(s[i]) !== mapping.get(")")) {
         return false;
       }
-    } else if (s[i] === '}') {
-      if (stack.pop(s[i]) !== mapping.get('}')) {
+    } else if (s[i] === "}") {
+      if (stack.pop(s[i]) !== mapping.get("}")) {
         return false;
       }
-    } else if (s[i] === ']') {
-      if (stack.pop(s[i]) !== mapping.get(']')) {
+    } else if (s[i] === "]") {
+      if (stack.pop(s[i]) !== mapping.get("]")) {
         return false;
       }
     }
