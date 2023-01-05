@@ -1,5 +1,5 @@
 ---
-id: 2
+id: Go 變數、條件式與迴圈
 ---
 
 > 本系列文章大量參考[The Go Workshop](https://www.tenlong.com.tw/products/9781838647940)此書內容，目前此書也有[中文版](https://www.tenlong.com.tw/products/9789863126706?list_name=trs-t)可以多多支持
@@ -358,3 +358,4 @@ for i, value := range names {
 - Last-Modify: 2022/04/11
 
 :::
+ter, func, interface, slice, channel, map | nil |
