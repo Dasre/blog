@@ -1,12 +1,15 @@
 ---
 id: Leetcode-144
+title: Binary Tree Preorder Traversal
 tags:
   - Leetcode
+last_update:
+  date: 2023-01-09
 ---
 
 ## 題目
 
-[完整題目](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+[完整題目](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
 
 Given the root of a binary tree, return the preorder traversal of its nodes' values.
 
@@ -31,51 +34,50 @@ Input: root = [1]
 Output: [1]
 ```
 
-簡單來說就是整理 path。
+**Constraints**
+
+- The number of nodes in the tree is in the range [0, 100].
+- -100 <= Node.val <= 100
+
+透過 preorder 的走法去把 node 紀錄出來。
+preorder 的順序: 中 -> 左 -> 右
+inorder 的順序: 左 -> 中 -> 右
+postorder 的順序: 左 -> 右 -> 中
 
 ## 題目難易度
 
-Medium
+Easy
 
 ## 解題想法
 
-先透過字串分割`/`，並去除分割完為空字串的部分。這時分割完的陣列會出現四種狀況，我們需將這四種狀況整理至一陣列，最後再組成文字。
-
-四種狀況：
-
-- `.`: 不做任何事情
-- `..`: 要回上一層，所以就 array.pop();
-- `...`: array.push()(加入 array)
-- `<不包括.與/的文字>`: array.push()(加入 array)
+簡單來說就是中左右的順序透過 recursive 的方法把每個 node 走過一次並記錄下來。
 
 ## 初試
 
-> Runtime: 100ms
+> Runtime: 64ms, 82.81%
 
-> Memory Usage: 47MB
+> Memory Usage: 42.2MB, 52.42%
 
 ```javascript
 /**
- * @param {string} path
- * @return {string}
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
  */
-var simplifyPath = function (path) {
-  /**
-   * @param {string} path
-   * @return {string}
-   */
-  var simplifyPath = function (path) {
-    const parts = path.split("/").filter((item) => item);
-    const stack = [];
-    for (let i of parts) {
-      if (i === "..") {
-        stack.pop();
-      } else if (i === ".") {
-      } else {
-        stack.push(i);
-      }
-    }
-    return `/${stack.join("/")}`;
-  };
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
+var preorderTraversal = function (root) {
+  if (!root) return [];
+
+  let res = [root.val];
+  res.push(...preorderTraversal(root.left));
+  res.push(...preorderTraversal(root.right));
+
+  return res;
 };
 ```
