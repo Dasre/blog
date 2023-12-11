@@ -1,7 +1,10 @@
 ---
 id: Leetcode-1007
+title: 1007. Minimum Domino Rotations For Equal Row
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

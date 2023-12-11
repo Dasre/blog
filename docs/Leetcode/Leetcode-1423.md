@@ -1,7 +1,10 @@
 ---
 id: Leetcode-1423
+title: 1423. Maximum Points You Can Obtain from Cards
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

@@ -1,15 +1,16 @@
 ---
 id: Leetcode-1833
-title: Maximum Ice Cream Bars
+title: 1833. Maximum Ice Cream Bars
+
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-06
+  date: 2023-12-11
 ---
 
 ## 題目
 
-[完整題目](https://leetcode.com/problems/maximum-ice-cream-bars/description/)
+[完整題目](https://leetcode.com/problems/maximum-ice-cream-bars/)
 
 It is a sweltering summer day, and a boy wants to buy some ice cream bars.
 

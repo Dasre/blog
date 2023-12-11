@@ -1,7 +1,10 @@
 ---
 id: Leetcode-856
+title: 856. Score of Parentheses
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

@@ -1,10 +1,10 @@
 ---
 id: Leetcode-134
-title: Gas Station
+title: 134. Gas Station
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-07
+  date: 2023-12-11
 ---
 
 ## 題目

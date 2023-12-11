@@ -1,12 +1,15 @@
 ---
 id: Leetcode-1260
+title: 1260. Shift 2D Grid
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目
 
-[完整題目](https://leetcode.com/problems/simplify-path/)
+[完整題目](https://leetcode.com/problems/shift-2d-grid/)
 
 Given a 2D `grid` of size `m x n` and an integer `k`. You need to shift the `grid` `k` times.
 

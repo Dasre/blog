@@ -1,7 +1,10 @@
 ---
 id: Leetcode-290
+title: 290. Word Pattern
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

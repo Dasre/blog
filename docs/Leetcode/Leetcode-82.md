@@ -1,7 +1,10 @@
 ---
 id: Leetcode-82
+title: 82. Remove Duplicates from Sorted List II
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

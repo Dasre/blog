@@ -1,10 +1,10 @@
 ---
 id: Leetcode-57
-title: Insert Interval
+title: 57. Insert Interval
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-16
+  date: 2023-12-11
 ---
 
 ## 題目

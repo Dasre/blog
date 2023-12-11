@@ -1,15 +1,15 @@
 ---
 id: Leetcode-944
-title: 944-Delete Columns to Make Sorted
+title: 944. Delete Columns to Make Sorted
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-03
+  date: 2023-12-11
 ---
 
 ## 題目
 
-[完整題目](https://leetcode.com/problems/simplify-path/)
+[完整題目](https://leetcode.com/problems/delete-columns-to-make-sorted/)
 
 You are given an array of `n` strings `strs`, all of the same length.
 

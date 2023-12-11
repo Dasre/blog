@@ -1,10 +1,10 @@
 ---
 id: Leetcode-452
-title: Minimum Number of Arrows to Burst Balloons
+title: 452. Minimum Number of Arrows to Burst Balloons
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-05
+  date: 2023-12-11
 ---
 
 ## 題目

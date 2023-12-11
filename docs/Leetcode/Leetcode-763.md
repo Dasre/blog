@@ -1,7 +1,10 @@
 ---
 id: Leetcode-763
+title: 763. Partition Labels
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

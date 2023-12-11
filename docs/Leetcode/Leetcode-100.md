@@ -1,10 +1,10 @@
 ---
 id: Leetcode-100
-title: Same Tree
+title: 100. Same Tree
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-10
+  date: 2023-12-11
 ---
 
 ## 題目

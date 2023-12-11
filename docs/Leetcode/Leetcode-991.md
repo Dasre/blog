@@ -1,12 +1,15 @@
 ---
 id: Leetcode-991
+title: 991. Broken Calculator
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目
 
-[完整題目](https://leetcode.com/problems/simplify-path/)
+[完整題目](https://leetcode.com/problems/broken-calculator/)
 
 There is a broken calculator that has the integer startValue on its display initially. In one operation, you can:
 

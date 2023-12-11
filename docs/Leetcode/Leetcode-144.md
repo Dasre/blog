@@ -1,10 +1,10 @@
 ---
 id: Leetcode-144
-title: Binary Tree Preorder Traversal
+title: 144. Binary Tree Preorder Traversal
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-09
+  date: 2023-12-11
 ---
 
 ## 題目

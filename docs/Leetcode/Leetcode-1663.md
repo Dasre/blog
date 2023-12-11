@@ -1,7 +1,10 @@
 ---
 id: Leetcode-1663
+title: 1663. Smallest String With A Given Numeric Value
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

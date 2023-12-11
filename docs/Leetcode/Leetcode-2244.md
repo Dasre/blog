@@ -1,15 +1,15 @@
 ---
 id: Leetcode-2244
-title: 2244-Minimum Rounds to Complete All Tasks
+title: 2244. Minimum Rounds to Complete All Tasks
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-04
+  date: 2023-12-11
 ---
 
 ## 題目
 
-[完整題目](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)
+[完整題目](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)
 
 You are given a `0-indexed` integer array `tasks`, where `tasks[i]` represents the difficulty level of a task. In each round, you can complete either 2 or 3 tasks of the `same difficulty level`.
 

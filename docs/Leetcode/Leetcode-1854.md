@@ -1,7 +1,10 @@
 ---
 id: Leetcode-1854
+title: 1854. Maximum Population Year
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

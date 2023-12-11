@@ -1,15 +1,15 @@
 ---
 id: Leetcode-2214
-title: Minimum Health to Beat Game
+title: 2214. Minimum Health to Beat Game
 tags:
   - Leetcode
 last_update:
-  date: 2023-01-08
+  date: 2023-12-11
 ---
 
 ## 題目
 
-[完整題目](https://leetcode.com/problems/minimum-health-to-beat-game/description/)
+[完整題目](https://leetcode.com/problems/minimum-health-to-beat-game/)
 
 You are playing a game that has n levels numbered from 0 to n - 1. You are given a 0-indexed integer array damage where damage[i] is the amount of health you will lose to complete the ith level.
 

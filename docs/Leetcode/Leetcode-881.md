@@ -1,12 +1,15 @@
 ---
 id: Leetcode-881
+title: 881. Boats to Save People
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目
 
-[完整題目](https://leetcode.com/problems/simplify-path/)
+[完整題目](https://leetcode.com/problems/boats-to-save-people/)
 
 You are given an array people where `people[i]` is the weight of the `ith` person, and an **infinite number of boats** where each boat can carry a maximum weight of `limit`. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most `limit`.
 

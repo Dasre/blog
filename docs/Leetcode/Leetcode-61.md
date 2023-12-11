@@ -1,7 +1,10 @@
 ---
 id: Leetcode-61
+title: 61. Rotate List
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

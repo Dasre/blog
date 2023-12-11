@@ -1,7 +1,10 @@
 ---
 id: Leetcode-21
+title: 21. Merge Two Sorted Lists
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

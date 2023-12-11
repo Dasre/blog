@@ -1,7 +1,10 @@
 ---
 id: Leetcode-704
+title: 704. Binary Search
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

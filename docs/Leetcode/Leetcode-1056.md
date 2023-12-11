@@ -1,7 +1,10 @@
 ---
 id: Leetcode-1056
+title: 1056. Confusing Number
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

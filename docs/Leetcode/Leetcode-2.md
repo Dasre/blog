@@ -1,7 +1,10 @@
 ---
 id: Leetcode-2
+title: 2. Add Two Numbers
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目

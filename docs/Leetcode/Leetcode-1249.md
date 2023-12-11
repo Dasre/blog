@@ -1,7 +1,10 @@
 ---
 id: Leetcode-1249
+title: 1249. Minimum Remove to Make Valid Parentheses
 tags:
   - Leetcode
+last_update:
+  date: 2023-12-11
 ---
 
 ## 題目
