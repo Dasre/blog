@@ -17,7 +17,7 @@ A position $(i, j)$ is called special if $mat[i][j] == 1$ and all other elements
 
 **Example 1**
 
-![ex1](/static/img/tutorial/Leetcode/1582/special1.jpg)
+![ex1](/img/tutorial/Leetcode/1582/special1.jpg)
 
 ```
 Input: mat = [[1,0,0],[0,0,1],[1,0,0]]
@@ -28,7 +28,7 @@ Explanation: (1, 2) is a special position because mat[1][2] == 1 and all other e
 
 **Example 2**
 
-![ex2](/static/img/tutorial/Leetcode/1582/special-grid.jpg)
+![ex2](/img/tutorial/Leetcode/1582/special-grid.jpg)
 
 ```
 Input: mat = [[1,0,0],[0,1,0],[0,0,1]]
