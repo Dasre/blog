@@ -74,6 +74,14 @@ Medium
 
 基本上功能並不難，但麻煩的是若不用 Priority Queue 之類的功能會容易 timeout。
 
+一開始的想法是把每個食物的資訊都用 Map 整理起來，方便查詢。但在取得某種食物種類最高分的時候，先做取出食物種類再排序就會 timeout。因此可能需要先把食物種類對應的食物先做好 Map 整理。
+
+再次嘗試把食物資訊，還有食物種類資訊做 Map，但不管是先在 changeRating 時做排序還是 highestRated 再取排序都會 timeout。因此還是放棄此作法。
+
+最後嘗試連 Map 都不用，直接 for 迴圈掃然後就剛好壓線過（？）。
+
+個人是覺得此題不用 Priority Queue 的方次做，Runtime 的時間都會很長。
+
 ## 初試
 
 > Runtime: 2633ms, 9.09%
