@@ -55,7 +55,7 @@ Easy
 
 > Memory Usage: 44.58MB, 71.26%
 
-- 時間複雜度：$O(n*log n + m*log m)$
+- 時間複雜度：$O(n*\log n + m*\log m)$
 - 空間複雜度：$O(1)$
 
 ```javascript
