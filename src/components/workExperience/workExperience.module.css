@@ -1,0 +1,41 @@
+.work-experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.work-experience-left,
+.work-experience-right {
+    align-self: flex-start;
+    width: 45%; /* 調整左右兩側寬度 */
+}
+
+.work-experience-divider {
+    height: 1px;
+    background-color: #ccc;
+    width: 5px; /* 調整分隔線寬度 */
+}
+
+.work-experience h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.work-experience p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 996px) {
+    .work-experience {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-experience-left,
+    .work-experience-right {
+        align-self: flex-start;
+        width: 100%; /* 調整左右兩側寬度 */
+    }
+}

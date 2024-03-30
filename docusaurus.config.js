@@ -77,6 +77,11 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            to: "/aboutMe",
+            label: "About Me",
+            position: "left",
+          }
         ],
       },
       footer: {
