@@ -44,6 +44,7 @@ const config = {
       }),
     ],
   ],
+  plugins: ['@docusaurus/theme-live-codeblock'],
 
   stylesheets: [
     {
@@ -56,7 +57,7 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
         title: "Andy Chen Memo",
@@ -71,7 +72,7 @@ const config = {
             position: "left",
             label: "學習筆記",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          {to: "/blog", label: "Blog", position: "left"},
           {
             href: "https://github.com/Dasre",
             label: "GitHub",
