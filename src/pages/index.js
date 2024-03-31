@@ -1,6 +1,6 @@
 import React from "react";
 import clsx from "clsx";
-import Layout from "@theme/Layout";
+import Layout from "@theme/Layout"
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
@@ -47,7 +47,7 @@ function HomepageHeader() {
         </div> */}
         <div className={styles.buttonGroup}>
           {IntroduceData.map((item, index) => {
-            return <Introduce buttonText={item.buttonText} link={item.link}/>;
+            return <Introduce key={`i${index}`} buttonText={item.buttonText} link={item.link}/>;
           })}
         </div>
       </div>
