@@ -20,7 +20,7 @@ const IntroduceData = [
   },
 ];
 
-function Introduce({ buttonText, link }) {
+function Introduce({buttonText, link}) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center padding-horiz--md">
@@ -34,7 +34,7 @@ function Introduce({ buttonText, link }) {
 }
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
+  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)} style={{flex: 1}}>
       <div className="container">
@@ -47,7 +47,7 @@ function HomepageHeader() {
         </div> */}
         <div className={styles.buttonGroup}>
           {IntroduceData.map((item, index) => {
-            return <Introduce buttonText={item.buttonText} link={item.link} />;
+            return <Introduce buttonText={item.buttonText} link={item.link}/>;
           })}
         </div>
       </div>
@@ -56,10 +56,10 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
+  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout title={`${siteConfig.title}`} description="Andy Chen Blog">
-      <HomepageHeader />
+      <HomepageHeader/>
       {/* <main id="au">
         <HomepageFeatures />
       </main> */}
