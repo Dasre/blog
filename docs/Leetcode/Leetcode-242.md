@@ -4,7 +4,7 @@ title: 242. Valid Anagram
 tags:
   - Leetcode
 last_update:
-  date: 2023-12-16
+  date: 2024-09-24
 ---
 
 ## 題目
@@ -74,6 +74,28 @@ var isAnagram = function (s, t) {
     }
 
     x.set(i, x.get(i) - 1);
+  }
+
+  return true;
+};
+```
+
+```javascript
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {boolean}
+ */
+var isAnagram = function (s, t) {
+  if (s.length !== t.length) return false;
+  const m = new Map();
+  for (const c of s) {
+    m.set(c, m.has(c) ? m.get(c) + 1 : 1);
+  }
+
+  for (const c of t) {
+    if (!m.get(c) || m.get(c) <= 0) return false;
+    m.set(c, m.get(c) - 1);
   }
 
   return true;
